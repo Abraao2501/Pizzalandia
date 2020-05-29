@@ -1,0 +1,68 @@
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.titulo{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.imgs{
+    align-items: center;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+}
+img{
+    height: 190px;
+    width: 190px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+figure figcaption{
+    text-align:center;  
+    color: white;
+    font-size: 16px;
+}
+.btns{
+    text-align: center;
+}
+button#est1{
+    padding: 10px;
+	width: 5%;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right,rgb(47, 45, 35), rgb(73, 72, 41));
+    cursor: pointer;
+}
+button#est2{
+    padding: 10px;
+	width: 20%;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, rgb(47, 45, 35), rgb(73, 72, 41));
+    cursor: pointer;
+}
+button#est3{
+    padding: 10px;
+	width: 15%;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right,rgb(47, 45, 35), rgb(73, 72, 41));
+    cursor: pointer;
+}
