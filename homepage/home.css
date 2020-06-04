@@ -38,8 +38,9 @@ body{
     background: linear-gradient(to right, rgba(216, 152, 4, 0.835), rgb(255, 251, 0));
     height: 450px;
     width: 300px;
-    padding-top: 10px;
-    margin-left: 65%;
+    float: right;
+    margin-top: 60px;
+    margin-right: 150px;
     border-radius: 10px;
     position: relative;
     align-items: center;

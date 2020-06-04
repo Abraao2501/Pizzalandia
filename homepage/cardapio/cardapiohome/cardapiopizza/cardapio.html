@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzalândia</title>
+    <link rel="stylesheet" href="cardapio.css">
+</head>
+
+<body>
+    <section class="titulo">
+        <h2>Escolha até 2 Sabores</h2>
+        <h2>Qualquer Sabor por Apenas: <b>R$12,00</b></h2>
+    </section>
+    <div class="imgs">
+        <form name="f1">
+            <ul>
+                <li>
+                    <figure><img src="4 queijos.jpg" alt="">
+                        <figcaption>Pizza 4 Queijos <input type="checkbox" class="che" name="4 queijos" value="p1"
+                                id="p1"></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="mista.jpg" alt="">
+                        <figcaption>Pizza Mista <input type="checkbox" class="che" name="Mista" value="p2" id="p2"></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="calabresa.jpg" alt="">
+                        <figcaption>Pizza de Calabresa <input type="checkbox" class="che" name="Calabresa" value="p3" id="p3">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="frango.jpg" alt="">
+                        <figcaption>Pizza de Frango <input type="checkbox" class="che" name="Frango" value="p4" id="p4">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="hot dog.jpg" alt="">
+                        <figcaption>Pizza Hot Dog <input type="checkbox" class="che" name="Hot Dog" value="p5" id="p5">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="napolitana.jpg" alt="">
+                        <figcaption>Pizza Napolitana <input type="checkbox" class="che" name="Napolitana" value="p6" id="p6">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="marguerita.jpg" alt="">
+                        <figcaption>Pizza Marguerita <input type="checkbox" class="che" name="Marguerita" value="p7" id="p7">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="portuguesa.jpg" alt="">
+                        <figcaption>Pizza Portuguesa <input type="checkbox" class="che" name="Portuguesa" value="p8" id="p8">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="doce de leite.jpg" alt="">
+                        <figcaption>Pizza Doce de Leite <input type="checkbox" class="che" name="Doce de Leite" value="p9" id="p9">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="brigadeiro.jpg" alt="">
+                        <figcaption>Pizza de Brigadeiro <input type="checkbox" class="che" name="Brigadeiro" value="p10" id="p10">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="banana.jpg" alt="">
+                        <figcaption>Pizza de Banana <input type="checkbox" class="che" name="Banana" value="p11" id="p11">
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure><img src="doce de leite com coco.jpg" alt="">
+                        <figcaption>Pizza de Doce de Leite com Coco <input type="checkbox" class="che" name="Doce de Leite com Coco"
+                                value="p12" id="p12"></figcaption>
+                    </figure>
+                </li>
+                <br><br><br>
+            </ul>
+        </form>
+    </div>
+    <div class="btns">
+        <button id="est1" onClick="history.go(-1)">&#8617</button>
+        <button id="est2" onclick="validar()">Continuar Comprando</button>
+        <button id="est3">Fechar Pedido</button>
+    </div>
+    <script src="cardapio.js"></script>
+</body>
+
+</html>
